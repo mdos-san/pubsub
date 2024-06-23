@@ -1,11 +1,16 @@
 {
   "author": "mdos-san",
   "description": "Simple Publish-Subscribe implementation",
+  "files": [
+    "src/index.js"
+  ],
   "license": "ISC",
   "module": "src/index.js",
   "name": "@mdos-san/pubsub",
   "repository": "github:mdos-san/pubsub",
   "scripts": {
+    "prepack": "mv README.md .README.md",
+    "postpack": "mv .README.md README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
