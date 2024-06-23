@@ -1,6 +1,6 @@
 {
   "name": "@mdos-san/pubsub",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Publish-Subscribe implementation",
   "module": "src/index.js",
   "type": "module",
